@@ -26,4 +26,18 @@ nav a {
     margin: 0 15px;
 }
 
-nav a
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 16px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 4px;
+    text-decoration: underline;
+}
+
